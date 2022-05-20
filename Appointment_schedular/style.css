@@ -1,0 +1,102 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .nav-btn .btn {
+        position: relative;
+        /* left: 55vw; */
+        /* margin: 10px */
+    }
+    
+    .navbar {
+        height: 90px;
+        background: rgb(15, 15, 15);
+        font-size: 1.0em;
+    }
+    
+    .top-nav {
+        position: relative;
+        top: 6px;
+    }
+    
+    .title-name {
+        font-family: 'Abril Fatface', cursive;
+        color: #8b22e2;
+        font-size: 1.5em;
+        font-weight: bold;
+        position: relative;
+        top: 7px;
+    }
+    /* banned section */
+    
+    .banners {
+        background-color: #eae3f2;
+        max-height: 80vh;
+    }
+    /* hover */
+    
+    div.card :hover {
+        background-color: #cdbce1;
+    }
+    
+    .container2:hover {
+        background-color: #8b22e2;
+    }
+    
+    .banners .col-md-6 .b-t-y span {
+        color: #8b22e2;
+        font-family: 'Abril Fatface', cursive;
+        letter-spacing: 5px;
+    }
+    
+    .banners .col-md-6 .b-t-y h1 {
+        font: normal normal bold 50px/60px 'Times New Roman', Times, serif;
+        letter-spacing: 0px;
+        color: #131212;
+        padding-top: 15px;
+        margin-top: 100px;
+    }
+    
+     :-webkit-any(article, aside, nav, section) h1 {
+        font-size: 1.5em;
+    }
+    
+    body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 19px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+        /* font-weight: 00; */
+    }
+    
+    .b-t-y {
+        margin-top: 100px;
+    }
+    
+    @media only screen and (max-width: 991px) {
+        .banners .col-md-6 .b-p-y {
+            line-height: 25px;
+            letter-spacing: 0.22px;
+            text-align: center;
+        }
+    }
+    
+    .banners .col-md-6 .b-p-y {
+        font-size: 1.5em;
+        font-weight: 400;
+        padding: 15px 0px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    p {
+        margin: 0 0 10px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
